@@ -21,7 +21,7 @@ def check_ip(ip):
 
 def check_email(email):
    rule = r"^[a-z0-9._%+-]+@gmail\.com$"
-   rule= r"^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+   rule= r"^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"       #this one i have use to check mail_id of other type like:- rahul@cloudkeeper.com
    return "sahi hai" if re.match(rule, email) else "galat mail id"
 
 def main():
