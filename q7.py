@@ -55,5 +55,5 @@ def recommend_ec2(instance_name, cpu_usage):
     
     return result
 
-result_df = recommend_ec2("t2.large", 20)
+result_df = recommend_ec2("t2.large", 19)
 print(result_df.to_string(index=False))
